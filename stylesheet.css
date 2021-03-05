@@ -1,0 +1,215 @@
+body {
+  font-family: "Roboto";
+  color:#404146;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+.about-link {
+  color:#404146;
+}
+
+.header {
+  background-color:black;
+  height: 95px;
+  width:98.95%;
+  position:fixed;
+  top:6px;
+  z-index:10;
+  opacity:0.8;
+}
+
+.logo {
+  float: left;
+  padding: 0px 40px;
+}
+
+.header-right li {
+  float: right;
+  padding: 25px 50px;
+  font-size: 20px;
+}
+
+.header-right a {
+  color:white;
+}
+
+.top-wrapper {
+  padding:200px 0 100px 0;
+  background-image: url(images/Eksekutif3.png);
+  background-size:cover;
+  color:white;
+  text-align:left;
+  height:400px;
+}
+
+.copy-container {
+  padding:0 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:left;
+  opacity:0.8;
+  line-height:300%;
+}
+
+.copy-container h1 {
+  font-family:"Reenie Beanie";
+  font-size: 100px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  font-weight:normal;
+}
+
+.copy-container h2 {
+  
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left:5px;
+  text-align:justify;
+}
+
+.about { 
+  font-size: 28px;
+  height: 300px;
+  background-color: rgb(244, 244, 244);
+  padding: 80px 50px;
+}
+
+.about h3 {
+  font-family:"Reenie Beanie";
+  font-size:60px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+  text-align:justify;
+}
+
+.contents {
+  height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.contents2 {
+  height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.contents h3 {
+  font-family:"Reenie Beanie";
+  font-size: 60px;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+.contents-item {
+  float:left;
+  width: 33.3%
+}
+
+.contents-item img{
+  height: 270px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+}
+
+.contents-item p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 12px;
+  margin-top:20px;
+  text-align:justify;
+  padding:0 15px;
+  width:190%;
+}
+
+.contact-form {
+  height: 575px;
+  padding: 50px 0px;
+  text-align:center;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-family:"Reenie Beanie";
+  font-size: 60px;
+  padding-bottom: 5px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Roboto";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 400px;
+  background-color:#5dca88;
+  color:white;
+  font-size: 22px;
+  opacity:0.8;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940;
+}
+
+.contact-submit:hover {
+  opacity:1;
+}
+
+.contact-submit:active {
+  position:relative;
+  top:7px;
+  box-shadow:none
+}
+
+.contact-form p{
+  font-size: 20px;
+  margin-bottom:40px;
+}
+
+.footer {
+  background-color: #7C7D83;
+  color: #fff;
+  height: 40px;
+  padding: 20px;
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-weight:normal;
+  letter-spacing: 5px;
+}
+
+.footer-description {
+  font-size: 14px;
+  font-weight:normal;
+  padding-bottom:10px;
+}
